@@ -1,9 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Login from '../views/Login.vue'
 import Dashboard from '../views/dashboard.vue'
 import store from '../store'
+import VueEllipseProgress from 'vue-ellipse-progress'
 
+Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
+Vue.use(VueEllipseProgress)
 Vue.use(VueRouter)
 
 const routes = [

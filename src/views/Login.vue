@@ -86,7 +86,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .page {
     display:flex;
     flex-direction: row;
